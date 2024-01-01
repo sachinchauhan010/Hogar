@@ -1,0 +1,34 @@
+.swiper {
+  width: 60%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.signup{
+  height: 100%;
+  width: 100%;
+}
+
+/* input{
+  border: 2px solid lightseagreen;
+  margin: 6px;
+  height: 8vh;
+  padding: 5px 5px 5px 15px;
+  width:90%;
+  border-radius: 20px;
+} */

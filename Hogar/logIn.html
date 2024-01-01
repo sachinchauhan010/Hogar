@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+
+<body style="background-image:https://i.pinimg.com/originals/c4/e4/ab/c4e4ab1ae4078ec068ea6191ec925bb1.jpg ;">
+    <div class="reg h-full w-96  m-5  ml-[30%] bg-gradient-to-r shadow-2xl bg-purple-400 p-5 pb-0 pb-5 rounded-2xl ">
+
+
+        <div class="regBtn flex justify-around  gap-1 ">
+
+
+            <button href="#" id="logBtn"
+                class=" logBtn m-3  text-2xl text-white rounded-2xl cursor-pointer group  transition duration-300">
+                LogIn
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-sky-600"></span>
+            </button>
+
+            <button href="#" id="signBtn"
+                class=" signBtn m-3  text-2xl text-white rounded-2xl cursor-pointer group  transition duration-300">
+                SignUp
+                <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-1 bg-sky-600"></span>
+            </button>
+
+
+
+        </div>
+
+        <div class="registration ">
+
+
+            <!-- LogIn form -->
+            <form class="logIn  " id="logIn">
+                <div class="email block">
+                    <input type="email" placeholder="Email" id="getEmail"
+                        class="border-xl m-2 h-10 p-2 pl-5 w-80 rounded-lg">
+                </div>
+
+                <div class="pass block">
+                    <input type="password" placeholder="Password" id="getPassword"
+                        class="border-xl m-2 h-10 p-2 pl-5 w-80 rounded-lg">
+                </div>
+
+                <!-- LogIn Button -->
+                <div class="logBtn flex justify-center ">
+                    <Button class="loginbtn my-5 text-[20px] text-white h-11 w-[50%] bg-cyan-500 rounded-xl">log
+                        In</Button>
+                </div>
+            </form>
+
+
+
+
+            <form class="sign hidden" id="signUp" onclick="sign()">
+
+                <!-- Name -->
+                <div class="name flex gap-6  block    ">
+                    <input type="text " placeholder="First Name" id="Fname"
+                        class="border-xl my-4 h-12  px-5 w-36 rounded-lg">
+                    <input type="text" placeholder="Last Name" id="Lname"
+                        class="border-xl my-4 h-12 p-2 pl-5 w-36 rounded-lg">
+                </div>
+
+                <!-- Phone Number -->
+                <div class="Phone block">
+                    <input type="number" placeholder="phoneNumber" id="phone"
+                        class="border-xl my-4 h-12 p-2 pl-5 w-80 rounded-lg">
+                </div>
+                <!-- Email -->
+                <div class="emailId block">
+                    <input type="email" placeholder="Email" id="email"
+                        class="border-xl my-4 h-12 p-2 pl-5 w-80 rounded-lg">
+                </div>
+
+                <!-- Password -->
+                <div class="pass block">
+                    <input type="password" placeholder="Password" id="password"
+                        class="border-xl my-4 h-12 p-2 pl-5 w-80 rounded-lg">
+                </div>
+
+                <!-- confirm Password -->
+                <div class="conPass block">
+                    <input type="password" placeholder="Confirm password" id="conpassword"
+                        class="border-xl my-4 h-12 p-2 pl-5 w-80 rounded-lg">
+                </div>
+
+
+                <!-- Sign up Button -->
+                <div class="signBtn flex justify-center">
+                    <Button class="signupbtn my-5 text-[20px] text-white h-11 w-[50%] bg-cyan-500 rounded-xl">Sign
+                        Up
+                    </Button>
+                </div>
+
+
+
+
+            </form>
+
+
+
+
+        </div>
+    </div>
+
+
+    <script src="/regScript.js"></script>
+</body>
+
+</html>

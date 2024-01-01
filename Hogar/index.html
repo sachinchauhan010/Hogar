@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Swiper CSS cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Search baar CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hogar</title>
+</head>
+
+<body class="bg-purple-300">
+
+    <header>
+
+        <nav class="navbar flex justify-start mt-3 gap-40">
+            <div class="logo">
+                <img src="/HogarLogo.png" alt="" class="logoImg h-14 ml-10">
+            </div>
+
+            <div
+                class="selectPlaceTime ml-3 mr-4 pl-4 pr-2 flex justify-start items-center gap-20 border-2 rounded-full shadow-xl">
+
+                <a href="#" class="place mr-2 no-underline text-xl gap-20">Place</a>
+                <a href="#" class="time mr-2 no-underline text-xl">Time</a>
+                <a href="#" class="guest no-underline text-xl">Guest</a>
+                <button type="submit"><i class="fa fa-search mr-4 "></i></button>
+
+            </div>
+
+            <div class="menu flex justify-around gap-10">
+
+                <div class="houseHost flex justify-start items-center">
+                    <a href="logIn.html" class="navItem mr-2 no-underline text-xl ">HouseHost</a>
+                    <img src="/avtr.png" alt="" class="host h-10 cursor-pointer">
+                </div>
+
+                <div class="houseGuest flex justify-start items-center ">
+                    <a href="logIn.html" navItem mr-2 no-underline text-xl ">HouseGuest</a>
+                    <img src=" /avtr.png" alt="" class="host h-10 mr-10 cursor-pointer">
+                </div>
+
+            </div>
+
+
+        </nav>
+
+
+
+    </header>
+
+    <!-- swipper -->
+    <!-- Swiper -->
+    <div class="swiper mySwiper mt-5">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img
+                    src="https://img.freepik.com/premium-photo/european-style-living-room-design-3d-rendering-high-end-furniture_677551-6.jpg?w=2000"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="https://i.pinimg.com/originals/c4/e4/ab/c4e4ab1ae4078ec068ea6191ec925bb1.jpg" alt=""></div>
+            <div class="swiper-slide"><img
+                    src="https://5.imimg.com/data5/SELLER/Default/2022/3/SJ/WW/LY/111147831/new-bedroom.png" alt="">
+            </div>
+            <div class="swiper-slide"><img
+                    src="https://4.imimg.com/data4/YO/CU/MY-34134460/bedroom-set-solid-wood-bed-set-with-head-board-and-drawers.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="https://content.jdmagicbox.com/comp/alappuzha/j3/0477px477.x477.171128125720.u7j3/catalogue/pamba-driver-room-thathampally-alappuzha-home-stay-ndt5xc158y.jpg?clr="
+                    alt=""></div>
+            <div class="swiper-slide"><img src="https://www.snimayhome.com/storage/202103/jpg/bedroom-inner-design.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img
+                    src="https://hips.hearstapps.com/hmg-prod/images/matthew-carter-maine-summer-house-entry-hall-horizontal-64875980ac1b8.jpg"
+                    alt=""></div>
+            <div class="swiper-slide"><img src="https://gos3.ibcdn.com/011eebda1a2b11ecb8790a58a9feac02.jfif" alt="">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+
+    <!-- Card row1  -->
+    <section class="cardSec m-10">
+        <div class="cards flex justify-between">
+
+            <!-- Card1 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl ">
+                <img src="https://www.thespruce.com/thmb/2_Q52GK3rayV1wnqm6vyBvgI3Ew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/put-together-a-perfect-guest-room-1976987-hero-223e3e8f697e4b13b62ad4fe898d492d.jpg"
+                    alt="Image1" class="card1 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">New Delhi, India</p>
+                <p class="font-normal text-center">Nehru Place, Amar Colony</p>
+                <p class="font-bold text-center mt-1"> ₹10,000/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+            </div>
+
+
+            <!-- Card2 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl">
+                <img src="https://www.thespruce.com/thmb/GiWQNTsmBWXRnFhPFpQQPMZLoqQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-timeless-living-room-layout-ideas-5194550-hero-7ac246a4bf614a508be7ad9f4b160f27.jpg"
+                    alt="Image2" class="card1 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">Lucknow, India</p>
+                <p class="font-normal text-center">Gomati Nagar, Saheed Colony</p>
+                <p class="font-bold text-center mt-1"> ₹12,000/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+
+            </div>
+
+            <!-- Card3 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl">
+                <img src="https://www.manchesterhall.co.uk/wp-content/uploads/2019/09/King-Room-1500x1000.jpg"
+                    alt="Image3" class="card1 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">Chennai, India</p>
+                <p class="font-normal text-center">T Nagar, D Block</p>
+                <p class="font-bold text-center mt-1"> ₹17,000/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+
+            </div>
+
+            <!-- card4 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl">
+                <img src="https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/1urls-1677054134-GnYku/eclectic-style-spacious-convenient-master-bedroom-1677217885-FkSz2.jpg"
+                    alt="Image4" class="card4 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">Mumbai, India</p>
+                <p class="font-normal text-center">Andheri, City Point</p>
+                <p class="font-bold text-center mt-1"> ₹24,500/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Card row1  -->
+    <section class="cardSec m-10">
+        <div class="cards flex justify-between">
+
+            <!-- Card1 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl ">
+                <img src="https://www.thespruce.com/thmb/2_Q52GK3rayV1wnqm6vyBvgI3Ew=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/put-together-a-perfect-guest-room-1976987-hero-223e3e8f697e4b13b62ad4fe898d492d.jpg"
+                    alt="Image1" class="card1 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">New Delhi, India</p>
+                <p class="font-normal text-center">Nehru Place, Amar Colony</p>
+                <p class="font-bold text-center mt-1"> ₹10,000/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+            </div>
+
+
+            <!-- Card2 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl">
+                <img src="https://www.thespruce.com/thmb/GiWQNTsmBWXRnFhPFpQQPMZLoqQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/SPR-timeless-living-room-layout-ideas-5194550-hero-7ac246a4bf614a508be7ad9f4b160f27.jpg"
+                    alt="Image2" class="card1 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">Lucknow, India</p>
+                <p class="font-normal text-center">Gomati Nagar, Saheed Colony</p>
+                <p class="font-bold text-center mt-1"> ₹12,000/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+
+            </div>
+
+            <!-- Card3 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl">
+                <img src="https://www.manchesterhall.co.uk/wp-content/uploads/2019/09/King-Room-1500x1000.jpg"
+                    alt="Image3" class="card1 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">Chennai, India</p>
+                <p class="font-normal text-center">T Nagar, D Block</p>
+                <p class="font-bold text-center mt-1"> ₹17,000/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+
+            </div>
+
+            <!-- card4 -->
+            <div class="card1 h-80 w-72  bg-white border-2 rounded-xl shadow-2xl">
+                <img src="https://images.livspace-cdn.com/plain/https://d3gq2merok8n5r.cloudfront.net/1urls-1677054134-GnYku/eclectic-style-spacious-convenient-master-bedroom-1677217885-FkSz2.jpg"
+                    alt="Image4" class="card4 rounded-xl">
+
+                <p class="font-semibold  text-center mt-3">Mumbai, India</p>
+                <p class="font-normal text-center">Andheri, City Point</p>
+                <p class="font-bold text-center mt-1"> ₹24,500/day </p>
+                <button type="submit"
+                    class="border-2 rounded-lg ml-24 mt-1 pl-5 pr-5  bg-blue-500 text-lg font-semibold text-white ">Book</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Swiper JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
